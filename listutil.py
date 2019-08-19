@@ -15,7 +15,7 @@ def unique(list1):
     >>> unique([])
     []
     """
-    # pass   # remove this and write the actual code
+    
     new_list = set(list1)
     final_list = (list(new_list))
     return final_list
