@@ -1,4 +1,4 @@
-def unique(list):
+def unique(list1):
     """Return a list containing only the first occurence of each distint
        element in list.  That is, all duplicates are omitted.
 
@@ -15,7 +15,10 @@ def unique(list):
     >>> unique([])
     []
     """
-    pass   # remove this and write the actual code
+    # pass   # remove this and write the actual code
+    new_list = set(list1)
+    final_list = (list(new_list))
+    return final_list
 
 if __name__ == "__main__":
     """Run the doctests in all methods."""
